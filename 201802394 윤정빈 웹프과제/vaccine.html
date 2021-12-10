@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COVID-19</title>
+  <link href="all.css" type="text/css" rel="stylesheet"/>
+  <link href="vaccine.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>백신</h1>
+    </div>
+  </header>
+  <h1> 다양한 COVID-19 백신</h1>
+  <div style="padding-bottom:25px;">
+    <table border=1px class="vc">
+      <tr class="vc_head">
+        <th>화이자-바이오엔텍</th>
+        <th>모더나</th>
+        <th>존슨앤존슨 얀센</th>
+      </tr>
+      <tr class="gr">
+        <td>권장 연령<br>
+            5세 이상</td>
+        <td>권장 연령<br>
+          18세 이상</td>
+        <td>권장 연령<br>
+          18세 이상</td>
+      </tr>
+      <tr>
+        <td>기본 시리즈<br>
+          2회 접종<br>
+          3주(21일) 간격으로 접종</td>
+        <td>기본 시리즈<br>
+          2회 접종<br>
+          4주(28일) 간격으로 접종</td>
+        <td>기본 시리즈<br>
+          1회 접종</td>
+      </tr>
+      <tr class="gr">
+        <td>부스터샷<br>
+          18세 이상의 모든 사람은 기본 시리즈의 마지막 접종 후 6개월이 지나면 접종 대상이 됩니다. 
+          세 가지 COVID-19 백신 중에서 하나를 부스터샷으로 접종받을 수 있습니다.</td>
+        <td>부스터샷<br>
+          18세 이상의 모든 사람은 기본 시리즈의 마지막 접종 후 6개월이 지나면 접종 대상이 됩니다.
+          세 가지 COVID-19 백신 중에서 하나를 부스터샷으로 접종받을 수 있습니다.</td>
+        <td>부스터샷<br>
+          기본 접종 후 2개월이 지난 18세 이상의 모든 사람. 
+          세 가지 COVID-19 백신 중에서 하나를 부스터샷으로 접종받을 수 있습니다.</td>
+      </tr>
+      <tr>
+        <td>백신 접종 완료로 간주하는 시기<br>
+          2차 접종 후 2주 경과</td>
+        <td>백신 접종 완료로 간주하는 시기<br>
+          2차 접종 후 2주 경과</td>
+        <td>백신 접종 완료로 간주하는 시기<br>
+          1차 접종 후 2주 경과</td>
+      </tr>
+    </table>
+  </div>
+  <div class="Vaccination_Report">
+    <form>
+      성명 : <input type="text" value=""> 주민등록번호 : <input type="text" value="" maxlength="14"> 전화번호 : <input type="text" value=""> <input type="button" value="확인">
+      <ul>
+        <li>(여성) 현재 임신 중 입니까? <div class="check"> 예<input type="checkbox" value="1"> 아니오<input type="checkbox" value="2"></div></li>
+        <li>이전과 다르게 오늘 아픈 곳이 있습니까? 아픈 증상을 적어주십시오.<div class="check"> 예<input type="checkbox" value="1"> 아니오<input type="checkbox" value="2"></div></li>
+        <li>코로나19 감염을 진단 받은 적이 있습니까? 있다면 진단일을 적어 주십시오.<div class="check"> 예<input type="checkbox" value="1"> 아니오<input type="checkbox" value="2"></div></li>
+        <li>최근 14일 이내 백신(코로나 백신 외)을 접종받은 적이 있습니까?<div class="check"> 예<input type="checkbox" value="1"> 아니오<input type="checkbox" value="2"></div></li>
+        <li>코로나19 백신 접종 후 중증 알레르기 반응(아나필락시스: 쇼크, 호흡곤란, 의식소실, 입술/입안의 부종 등)
+          이 나타나서 치료를 받은 적이 있습니까?
+          (중증 알레르기 반응이 나타난 백신 종류:
+          <input type="text" list="vcc">
+            <datalist id="vcc"> 
+              <option value="화이자">
+              <option value="모더나">
+              <option value="얀센">
+            </datalist>)
+          </li>
+        <li>혈액응고장애를 앓고 있거나, 항응고제를 복용중이십니까? 있다면 질환명 또는 약 종류를 적어 주십시오.
+          <input type="text" value="">
+        </li>
+        <input type="button" value="제출">
+      </ul>
+    <form>
+  </div>
+</body>
+</html>

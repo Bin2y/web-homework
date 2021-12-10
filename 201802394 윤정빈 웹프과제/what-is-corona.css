@@ -1,0 +1,23 @@
+#underHead {
+  padding-top: 25px;
+}
+
+th {
+  width: 70px;
+  background-color: rgb(223, 221, 221);
+}
+td {
+  background-color: white;
+}
+
+#list li {
+  list-style-type: square;
+}
+#list li li {
+  list-style-type: circle;
+}
+input {
+  background-color: black;
+  color: white;
+  float: right;
+}
