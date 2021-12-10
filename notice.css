@@ -1,0 +1,16 @@
+summary {
+  font-size: 25px;
+  background-color: rgb(211, 209, 209);
+}
+input {
+  background-color: black;
+  color: white;
+  float: right;
+}
+
+details {
+  padding-top: 30px;
+}
+.entrant {
+  font-size: 20px;
+}
