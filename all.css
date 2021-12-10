@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid gray;
+}

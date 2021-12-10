@@ -1,0 +1,34 @@
+ul table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid rgb(135, 135, 141);
+  border-bottom: 1px solid rgb(135, 135, 141);
+}
+.unit {
+  float: right;
+}
+.tb {
+  padding-top: 10px;
+}
+.every_day {
+  background-color: rgb(168, 206, 221);
+  color: black;
+}
+.domestic_table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+.small_title {
+  text-align: left;
+  padding-top: 25px;
+}
+
+#graph {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 1024px;
+  height: 500px;
+}
